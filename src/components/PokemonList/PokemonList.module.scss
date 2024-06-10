@@ -1,0 +1,16 @@
+.PokemonListContainer {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  .PokemonList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .listTitle {
+    font-size: large;
+    font-weight: 600;
+    color: #1b99f4;
+  }
+}
